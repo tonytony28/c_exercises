@@ -8,4 +8,9 @@ int main(){
     printf("Enter 3 components of the first vector");
     scanf("%d %d %d", &secondVector[0], &secondVector[1], &secondVector[2]);
 
+    for (int i = 0; i < 3; i++){
+        dotProduct += firstVector[i] * secondVector[i];
+    }
+    printf("Dot Product: %d", dotProduct);
+    return 0;
 }
