@@ -5,5 +5,7 @@ int main(){
     printf("Enter 3 components of the first vector");
     scanf("%d %d %d", &firstVector[0], &secondVector[1], &firstVector[2]);
 
-    
+    printf("Enter 3 components of the first vector");
+    scanf("%d %d %d", &secondVector[0], &secondVector[1], &secondVector[2]);
+
 }
